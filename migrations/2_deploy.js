@@ -1,4 +1,4 @@
-var Asset = artifacts.require("Asset");
+var Token = artifacts.require("Token");
 module.exports = function(deployer) {
-  deployer.deploy(Asset);
+  deployer.deploy(Token);
 };
